@@ -44,7 +44,7 @@ export const Login = () => {
           </button>
         </form>
         <p className="text-center mt-3">
-          Don't have an account? <Link to="/register">Register</Link>
+          Don't have an account? <Link to="/register" className="text-white">Register</Link>
         </p>
       </div>
     </div>

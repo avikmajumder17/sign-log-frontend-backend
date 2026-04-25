@@ -76,7 +76,7 @@ export const Register = () => {
                     </button>
                 </form>
                 <p className="text-center mt-3">
-                    Already have an account? <Link to="/login">Login</Link>
+                    Already have an account? <Link to="/login" className="text-white">Login</Link>
                 </p>
             </div>
         </div>
