@@ -21,7 +21,7 @@ export const Register = () => {
 
         try {
             await axios.post(
-                "https://sign-log-complete.netlify.app/api/v1/users/sign-up",
+                "https://sign-log-in-backend.onrender.com/api/v1/users/sign-up",
                 userDetails
             );          
 
