@@ -24,8 +24,6 @@ export const Login = () => {
         userDetails
       );
 
-      console.log(userDetails);
-
       toast.success("User Login Successful");
 
       e.target.reset();
